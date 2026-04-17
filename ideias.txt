@@ -1,0 +1,1 @@
+Realizar a verificação dos valores quando for fechado, para melhor controle de quanto vai ficar no fim do mes
