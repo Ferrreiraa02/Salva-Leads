@@ -124,7 +124,7 @@ function removerReservado(i){ leads[i].reservado = false; salvarStorage(); rende
 
 function copiarLead(i){
   const l = leads[i];
-  const texto = `📍 Lead: ${l.nome}\n💼 Segmento: ${l.segmento}\n🌐 Sistema Atual: ${l.sistema}\n👷 Técnicos: ${l.tecnicos}\n📌 Internos: ${l.internos}\n📄 Contratos: ${l.contratos}\n📎 O.S. por dia: ${l.os}\n⚠️ Ponto de Dor: ${l.dor}\n📞 Telefone: ${l.telefone}\n✉️ E-Mail: ${l.email}\n📌 Agendamento: ${l.agendamento}`;
+  const texto = `📍 Lead: ${l.nome}\n💼 Segmento: ${l.segmento}\n🌐 Sistema Atual: ${l.sistema}\n👷 Técnicos: ${l.tecnicos}\n📌 Internos: ${l.internos}\n📄 Contratos: ${l.contratos}\n📎 O.S. por dia: ${l.os}\n⚠️ Ponto de Dor: ${l.dor}\n📞 Telefone: ${l.telefone}\n✉️ E-Mail: ${l.email}\n📌 Agendamento: ${l.agendamento}\n📝 Extras: ${l.extras}`;
   navigator.clipboard.writeText(texto);
 }
 
